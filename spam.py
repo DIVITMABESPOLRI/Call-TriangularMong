@@ -5,7 +5,7 @@ import time, re, sys
 from requests import Session
 s = Session()
 
-print("Spam Call by Xractz - IndoSec\nThis tool delays 5 seconds per spam so as not to limit!\nUse Country Code (ex: 62xxxxx29)")
+print("Tools Call Random-Mabes Polri\nDelay 3 Min\nUses Country Code Extension(ex: 62xxxxx29)")
 try:
 	no = int(input("No    : "))
 	jml = int(input("Count : "))
@@ -35,10 +35,10 @@ try:
 		time.sleep(4.8)
 		if 'Success' in send:
 			n +=1
-			print(f"[{n}] Sended to => {no}")
+			print(f"[{n}] Sended To => {no}")
 		else:
 			print("\n\t* Limit *")
-			print("\n\t* Try one hour ago or try tomorrow *")
+			print("\n\t* BUSY SERVER -34892894 DIVPOLRI *")
 			break
 except:
 	print("\n\t* ERROR *")
